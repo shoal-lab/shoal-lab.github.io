@@ -1,9 +1,8 @@
 ---
 layout: lab-member
-title: Jeremy Patterson
+title: Professor Jeremy Patterson
 img: fishing.jpg
 categories: lab-member-current
-role: Principal Investigator, Assistant Professor
 cv: /assets/pubs/CV_Patterson_Jeremy.pdf
 cv_label: CV - Updated May 2026
 ---
