@@ -1,7 +1,7 @@
 ---
 layout: lab-member
 title: Professor Jeremy Patterson
-img: fishing.jpg
+img: jpatt.jpg
 categories: lab-member-current
 cv: /assets/pubs/CV_Patterson_Jeremy.pdf
 cv_label: CV - Updated May 2026
