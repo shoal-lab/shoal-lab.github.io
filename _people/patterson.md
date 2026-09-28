@@ -1,9 +1,9 @@
 ---
-name: Jeremy Patterson
+layout: lab-member
+title: Jeremy Patterson
+img: fishing.jpg
+categories: lab-member-current
 role: Principal Investigator, Assistant Professor
-photo: /assets/images/bio_pics/fishing.jpg
-snippet: Assistant Professor in the Department of Earth and Ocean Sciences at UNC Wilmington. Principal investigator for the SHOAL Lab. Research spans fractured-rock hydrogeology, coastal aquifers, and oscillatory hydraulic testing.
-order: 1
 cv: /assets/pubs/CV_Patterson_Jeremy.pdf
 cv_label: CV - Updated May 2026
 ---
