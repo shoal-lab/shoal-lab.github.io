@@ -1,0 +1,59 @@
+---
+layout: page
+---
+
+<article class="post lab-member-page">
+  <header class="major">
+  </header>
+
+  {% if page.img %}
+    <div class="lab-member-header">
+      <img class="lab-member-photo-large" src="/assets/images/bio_pics/{{ page.img }}" alt="{{ page.title }}" />
+      <h2 class="lab-member-name">{{ page.title }}</h2>
+      {% if page.role %}
+        <p class="lab-member-role">{{ page.role }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="lab-member-bio">
+    {{ content }}
+  </div>
+
+  {% if page.cv or page.website or page.orcid or page.scholar or page.github or page.linkedin or page.twitter or page.bluesky or page.email %}
+    <div class="lab-member-links">
+      <h4>Links</h4>
+      <ul class="lab-member-links-list">
+        {% if page.cv %}
+          <li><a href="{{ page.cv }}"><i class="fa fa-file-text-o"></i> CV</a></li>
+        {% endif %}
+        {% if page.website %}
+          <li><a href="{{ page.website }}" target="_blank" rel="noopener"><i class="fa fa-globe"></i> Personal Website</a></li>
+        {% endif %}
+        {% if page.orcid %}
+          <li><a href="https://orcid.org/{{ page.orcid }}" target="_blank" rel="noopener"><i class="fa fa-id-card-o"></i> ORCID</a></li>
+        {% endif %}
+        {% if page.scholar %}
+          <li><a href="{{ page.scholar }}" target="_blank" rel="noopener"><i class="fa fa-graduation-cap"></i> Google Scholar</a></li>
+        {% endif %}
+        {% if page.github %}
+          <li><a href="https://github.com/{{ page.github }}" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a></li>
+        {% endif %}
+        {% if page.linkedin %}
+          <li><a href="https://www.linkedin.com/in/{{ page.linkedin }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+        {% endif %}
+        {% if page.twitter %}
+          <li><a href="https://twitter.com/{{ page.twitter }}" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> Twitter/X</a></li>
+        {% endif %}
+        {% if page.bluesky %}
+          <li><a href="https://bsky.app/profile/{{ page.bluesky }}" target="_blank" rel="noopener"><i class="fa fa-cloud"></i> Bluesky</a></li>
+        {% endif %}
+        {% if page.email %}
+          <li><a href="mailto:{{ page.email }}"><i class="fa fa-envelope-o"></i> Email</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  {% endif %}
+
+  <p><a href="/people.html">&larr; Back to People</a></p>
+</article>
