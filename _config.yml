@@ -3,15 +3,16 @@ title: SHOAL Lab
 subtitle: Spectral Hydrology Observation and Analysis Lab
 email: pattersonjr@uncw.edu
 description: "Not all who wander are lost."
-url: "https://shoal-lab.org" # the base hostname & protocol for your site
+url: "https://shoal-lab.org"
+
 author:
-street_address_1: University of North Carolina - Wilmington
-street_address_2: Dept. of Earth and Ocean Sciences
-city: Wilmington
-state: NC
-zip_code: 28403
-country: 
-phone: 910-962-2716
+  street_address_1: University of North Carolina - Wilmington
+  street_address_2: Dept. of Earth and Ocean Sciences
+  city: Wilmington
+  state: NC
+  zip_code: 28403
+  country:
+  phone: 910-962-2716
 
 # social settings
 500px_url:
@@ -30,7 +31,12 @@ permalink: /:title/
 # build settings
 markdown: kramdown
 
+# CRITICAL: disable the default theme so Massively's local files are used
+theme: null
+
+# Sass configuration — tell Jekyll where Massively's Sass source lives
 sass:
+  sass_dir: assets/sass
   style: compressed
 
 # Lab members collection
