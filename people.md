@@ -2,34 +2,46 @@
 layout: page
 title: People
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQLNFGW8CP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-QQLNFGW8CP');
-</script>
-
-
-<!-- Post -->
 <section class="post">
-    <header class="major">
+  <header class="major">
+    <h2>Current Lab Members</h2>
+  </header>
 
-    </header>
+  {% assign current = site.people | where: "categories", "lab-member-current" %}
+  {% for person in current %}
+    <a href="{{ person.url }}" class="lab-member-card-link">
+      <div class="lab-member-card">
+        <img class="lab-member-card-photo" src="/assets/images/bio_pics/{{ person.img }}" alt="{{ person.title }}" />
+        <div class="lab-member-card-info">
+          <h4 class="name-header">{{ person.title }}</h4>
+          {% if person.role %}
+            <p class="lab-member-card-role">{{ person.role }}</p>
+          {% endif %}
+          <p class="lab-member-card-snippet">{{ person.content | strip_html | truncatewords: 40, "..." }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
 
-<h4 class="name-header">Jeremy Patterson</h4>
-<img class="bio-img" src="/assets/images/bio_pics/fishing.jpg" alt="" height="325px" width="325px"/>
-<p class="bio-text">  
-I am an Assistant Professor in the <a href="https://uncw.edu/academics/colleges/cse/departments/earth-ocean-sciences/">Department of Earth and Ocean Sciences at University of North Carolina-Wilmington</a> and the principal investigator for the Physical Hydrogeology Research Group. Water is a thread that weaves it's way through the entirety of my life, from fishing small mountain streams as a kid to whitewater rafting and kayaking as an adult. I was first exposed to groundwater during a deployment with the U.S. Army. My deployment experience combined with an innate curiosity, and a strong motivation to conserve the natural environment inspired me to pursue degrees in geoscience with a focus on hydrogeology. Outside of work I spend my time playing guitar, running, reading, cooking, and eating.</p>
-<p style="text-indent:30px;"><a href="/assets/pubs/CV_Patterson_Jeremy.pdf"> CV - Updated May 2026</a>
-</p>
+  <header class="major" style="margin-top: 4rem;">
+    <h2>Past Lab Members</h2>
+  </header>
 
-<h3>Graduate Students:</h3>
-<h4 class="name-header">Ifetayo Olubena</h4>
-<p class="bio-text">  
-Ifetayo joined the research group in 2025 and is pursuing a Master's degree in Geoscience. Her research uses a combination of field data collection and numerical modeling to explore whether groundwater responses to ocean tides have the ability to identify heterogeneity in coastal aquifer systems.</p>
-<!-- <div style="margin-top:100px"> </div> -->
+  {% assign past = site.people | where: "categories", "lab-member-past" %}
+  {% for person in past %}
+    <a href="{{ person.url }}" class="lab-member-card-link">
+      <div class="lab-member-card">
+        <img class="lab-member-card-photo" src="/assets/images/bio_pics/{{ person.img }}" alt="{{ person.title }}" />
+        <div class="lab-member-card-info">
+          <h4 class="name-header">{{ person.title }}</h4>
+          {% if person.role %}
+            <p class="lab-member-card-role">{{ person.role }}</p>
+          {% endif %}
+          <p class="lab-member-card-snippet">{{ person.content | strip_html | truncatewords: 40, "..." }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
 
 </section>
