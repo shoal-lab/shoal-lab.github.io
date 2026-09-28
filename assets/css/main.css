@@ -4602,3 +4602,62 @@ a.person-card-link:hover .person-card {
 	}
 
 }
+/* -------------------------------------------------- */
+/* Lab Member Page — Links Block                      */
+/* -------------------------------------------------- */
+
+.lab-member-links {
+	max-width: 800px;
+	margin: 2.5rem auto 2rem auto;
+	padding-top: 1.5rem;
+	border-top: solid 2px #eeeeee;
+}
+
+.lab-member-links h4 {
+	margin-bottom: 1rem;
+}
+
+.lab-member-links-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.5rem;
+}
+
+.lab-member-links-list li {
+	padding-left: 0;
+	margin: 0;
+}
+
+.lab-member-links-list li:before {
+	display: none;
+}
+
+.lab-member-links-list a {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	border-bottom: none;
+	padding: 0.4rem 0.8rem;
+	border-radius: 4px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.lab-member-links-list a:hover {
+	background-color: rgba(220, 220, 220, 0.25);
+	border-bottom: none;
+}
+
+.lab-member-links-list a i.fa {
+	color: #717981;
+}
+
+/* Mobile — stack links vertically */
+@media screen and (max-width: 736px) {
+	.lab-member-links-list {
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+}
