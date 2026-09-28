@@ -32,3 +32,16 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+# Lab members collection
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: lab-member
