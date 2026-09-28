@@ -4480,3 +4480,125 @@
 		}
 
 	}
+
+/* -------------------------------------------------- */
+/* People Collection & Cards                          */
+/* -------------------------------------------------- */
+
+/* Card link wrapper — removes default anchor styling */
+a.person-card-link {
+	border-bottom: none;
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+a.person-card-link:hover {
+	border-bottom: none;
+}
+
+/* Card container — horizontal flex layout */
+.person-card {
+	display: flex;
+	align-items: flex-start;
+	gap: 2rem;
+	padding: 2rem;
+	border: solid 2px #eeeeee;
+	border-radius: 4px;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+a.person-card-link:hover .person-card {
+	background-color: rgba(220, 220, 220, 0.15);
+	border-color: #18bfef;
+}
+
+/* Card photo — fixed square on the left */
+.person-card-photo {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 4px;
+	flex-shrink: 0;
+}
+
+/* Card text block on the right */
+.person-card-info {
+	flex: 1;
+}
+
+.person-card-info .name-header {
+	margin: 0 0 0.5rem 0;
+}
+
+.person-card-role {
+	font-style: italic;
+	font-size: 0.9rem;
+	margin: 0 0 1rem 0;
+	color: #717981;
+}
+
+.person-card-snippet {
+	margin: 0;
+	line-height: 1.75;
+}
+
+/* -------------------------------------------------- */
+/* Individual Person Page                             */
+/* -------------------------------------------------- */
+
+.person-page .person-header {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.person-page .person-photo-large {
+	display: block;
+	margin: 0 auto 1.5rem auto;
+	max-width: 300px;
+	height: auto;
+	border-radius: 4px;
+}
+
+.person-page .person-name {
+	text-align: center;
+	margin: 0.5rem 0 0.25rem 0;
+}
+
+.person-page .person-role {
+	text-align: center;
+	font-style: italic;
+	color: #717981;
+	margin-bottom: 2rem;
+}
+
+.person-page .person-bio {
+	max-width: 800px;
+	margin: 0 auto;
+	line-height: 1.75;
+}
+
+/* -------------------------------------------------- */
+/* Mobile Override — stack card vertically            */
+/* -------------------------------------------------- */
+
+@media screen and (max-width: 736px) {
+
+	.person-card {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 1.5rem;
+	}
+
+	.person-card-photo {
+		width: 180px;
+		height: 180px;
+	}
+
+	.person-page .person-photo-large {
+		max-width: 250px;
+	}
+
+}
