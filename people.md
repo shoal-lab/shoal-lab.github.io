@@ -5,6 +5,8 @@ title: People
 
 <section class="post">
 
+<p>If you are doing research with SHOAL, you should be featured on this page. Follow <a href="{{ '/onboarding/' | relative_url }}">these directions</a> to add yourself to the site.</p>
+
   {% assign current = site.people | where: "categories", "lab-member-current" %}
   {% if current.size > 0 %}
     <header class="major">
