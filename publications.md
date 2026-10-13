@@ -20,7 +20,7 @@ title: Publications
 
     </header>
         <!-- <span class="date"></span> -->
-        <p>The physical hydrogeology group has generated research that is published in a variety of academic journals. Our work covers a range of groundwater topics such as aquifer characterization, fracture hydrogeology, and geothermal energy.
+        <p>The SHOAL Lab has generated research that is published in a variety of academic journals. Our work covers a range of groundwater topics such as aquifer characterization, fracture hydrogeology, and geothermal energy.
         <br/>
         <em><sup>*</sup> indicates student author</em>
         </p>
