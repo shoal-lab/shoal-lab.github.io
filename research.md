@@ -20,7 +20,7 @@ title: Research
   </header>
       <!-- <span class="date"></span> -->
       <p><span class="image right"><img src="/assets/images/bio_pics/jpatt.jpg" width="500" height="auto" alt="" /></span>
-      I'm a broadly trained physical hydrogeologist that specializes in the integration of hydrologic field measurements with hydrologic modeling across mulitple scales. My research explores how the spatial distribution and variability of aquifer flow and transport properties impacts subsurface fluid flows, storage, and transport across a broad range of geologic settings. For more details, see my <a href="/assets/pubs/CV_Patterson_Jeremy.pdf">CV</a>, <a href="https://scholar.google.com/citations?user=qOKXiPkAAAAJ&hl=en&oi=ao">Google Scholar</a>, or the project synopses below.</p>
+      The Spectral Hydrology Observation and Analysis Lab (SHOAL) studies how the spatial distribution and variability of aquifer flow and transport properties control subsurface fluid flow, storage, and solute transport across a broad range of geologic settings. Our core approach integrates field-scale hydraulic and geophysical observations with numerical modeling to resolve subsurface heterogeneity and its influence on groundwater flow and transport. Current research spans spectral approaches to aquifer characterization, PFAS fate and transport in groundwater, and fractured-rock hydrology. For more on individual contributions visit our <a href="{{ '/people/' | relative_url }}">lab member profiles</a>.</p>
   <hr />
 
   <header>
