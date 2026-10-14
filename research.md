@@ -19,7 +19,7 @@ title: Research
 
   </header>
       <!-- <span class="date"></span> -->
-      <p><span class="image right"><img src="/assets/images/bio_pics/culver_springs.jpeg" width="auto" height="auto" alt="" /></span>
+      <p><span class="image right"><img src="/assets/images/culver_springs.jpeg" width="auto" height="auto" alt="" /></span>
       The Spectral Hydrology Observation and Analysis Lab (SHOAL) studies how the spatial distribution and variability of aquifer flow and transport properties control subsurface fluid flow, storage, and solute transport across a broad range of geologic settings. Our core approach integrates field-scale hydraulic and geophysical observations with numerical modeling to resolve subsurface heterogeneity and its influence on groundwater flow and transport. Current research spans spectral approaches to aquifer characterization, PFAS fate and transport in groundwater, and fractured-rock hydrology. For more on individual contributions visit our <a href="{{ '/people/' | relative_url }}">lab member profiles</a>.</p>
   <hr />
 
