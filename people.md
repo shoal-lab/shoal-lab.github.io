@@ -20,7 +20,7 @@ permalink: /people/
   {% assign current = site.people | where: "categories", "lab-member-current" %}
   {% if current.size > 0 %}
     <header class="major">
-      <h4>Current Lab Members</h4>
+      <h3>Current Lab Members</h3>
     </header>
 
     {% for person in current %}
@@ -42,7 +42,7 @@ permalink: /people/
   {% assign past = site.people | where: "categories", "lab-member-past" %}
   {% if past.size > 0 %}
     <header class="major" style="margin-top: 4rem;">
-      <h4>Past Lab Members</h4>
+      <h3>SHOAL Lab Alumni</h3>
     </header>
 
     {% for person in past %}
