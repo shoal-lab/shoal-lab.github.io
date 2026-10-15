@@ -6,13 +6,13 @@ description: "Not all who wander are lost."
 url: "https://shoal-lab.org"
 
 author:
-  street_address_1: University of North Carolina - Wilmington
-  street_address_2: Dept. of Earth and Ocean Sciences
-  city: Wilmington
-  state: NC
-  zip_code: 28403
-  country:
-  phone: 910-962-2716
+street_address_1: University of North Carolina - Wilmington
+street_address_2: Dept. of Earth and Ocean Sciences
+city: Wilmington
+state: NC
+zip_code: 28403
+country:
+phone: 910-962-2716
 
 # social settings
 500px_url:

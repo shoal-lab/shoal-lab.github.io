@@ -20,14 +20,15 @@
 				    <!-- Featured Post -->
 				    <article class="post featured">
 						    <header class="major">
-								    <!-- <span class="date">April 25, 2017</span> -->
-								    <!-- <h2><a href="#">And this is a<br />
-									      massive headline</a></h2> -->
+								<h2>Recent News</h2>
+								<dl class="news-list">
+      								{% assign sorted_news = site.data.news | sort: "date" | reverse %}
+      								{% for item in sorted_news %}
+        								<dt><time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: "%B %Y" }}</time></dt>
+        								<dd>{{ item.text }}</dd>
+      								{% endfor %}
+    							</dl>
 						    </header>
-						    <a href="#" class="image main"><img src="assets/images/bio_pics/logo.png" alt="" /></a>
-						    <ul class="actions">
-								    <!-- <li><a href="#" class="button big">Full Story</a></li> -->
-						    </ul>
 				    </article>
 
             {% if site.posts != null %}
