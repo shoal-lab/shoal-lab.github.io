@@ -2,7 +2,7 @@ This is the repository for the Spectral Hydrology Observation and Analysis Lab (
 
 TODO:
 - Update lab logo
-- Change homepage footer to group news highlights
+- ~Add news highlights to homepage~
 - Add Contact page
 - Rework publications to match lab re-brand
 - Fix background image on homepage
