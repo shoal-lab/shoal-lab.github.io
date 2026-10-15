@@ -1,3 +1,20 @@
+This is the repository for the Spectral Hydrology Observation and Analysis Lab (SHOAL) website. For the fully rendered version of the site, please visit [shoal-lab.org](https://coast-lab.org)
+
+TODO:
+- Update lab logo
+- Change homepage footer to group news highlights
+- Add Contact page
+- Rework publications to match lab re-brand
+- Fix background image on homepage
+
+ONGOING:
+- Update CV
+- Update group news / highlights
+- Update links with filename changes
+
+
+I forked Massively-Jekyll from a repository provided by [andrewbanchich](https://github.com/andrewbanchich). I'm keeping the original README.md file intact below for this GitHub repo, but I'm actively changing the content of every other file in this repo. If you're interested in using this theme, I encourage you to visit the original repository (links below) and follow their instructions. During my site development, I've likely removed (by accident) much of their helpful documentation.  
+
 # (WIP) Massively - Jekyll Theme
 
 A Jekyll version of the "Massively" theme by [HTML5 UP](https://html5up.net/).
