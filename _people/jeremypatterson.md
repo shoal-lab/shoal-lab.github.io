@@ -3,6 +3,7 @@ layout: lab-member
 title: Professor Jeremy Patterson
 img: jpatt.jpg
 categories: lab-member-current
+role: Principal Investigator
 cv: /assets/pubs/CV_Patterson_Jeremy.pdf
 cv_label: CV - Updated May 2026
 github: shoal-lab
