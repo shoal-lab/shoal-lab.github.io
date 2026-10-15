@@ -1,17 +1,26 @@
 ---
 layout: page
-title: People
+title: SHOAL Lab Members
 permalink: /people/
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQLNFGW8CP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146764207-1');
+</script>
 
 <section class="post">
 
-<p>If you are doing research with SHOAL, you should be featured on this page. Follow <a href="{{ '/onboarding/' | relative_url }}">these directions</a> to add yourself to the site.</p>
+<p>If you are doing research with SHOAL Lab, you should be featured on this page. Follow <a href="{{ '/onboarding/' | relative_url }}">these directions</a> to add your profile to the site.</p>
 
   {% assign current = site.people | where: "categories", "lab-member-current" %}
   {% if current.size > 0 %}
     <header class="major">
-      <h2>Current Lab Members</h2>
+      <h4>Current Lab Members</h4>
     </header>
 
     {% for person in current %}
@@ -33,7 +42,7 @@ permalink: /people/
   {% assign past = site.people | where: "categories", "lab-member-past" %}
   {% if past.size > 0 %}
     <header class="major" style="margin-top: 4rem;">
-      <h2>Past Lab Members</h2>
+      <h4>Past Lab Members</h4>
     </header>
 
     {% for person in past %}

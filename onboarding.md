@@ -3,6 +3,15 @@ layout: page
 title: Joining the Lab GitHub
 permalink: /onboarding/
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQLNFGW8CP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146764207-1');
+</script>
 
 Steps to get a GitHub account set up and add yourself to the People page.
 
